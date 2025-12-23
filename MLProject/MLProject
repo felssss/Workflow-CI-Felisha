@@ -1,0 +1,5 @@
+name: titanic_ci_project
+
+entry_points:
+  main:
+    command: "python modelling.py"
