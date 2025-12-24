@@ -19,8 +19,8 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: | 
-          pip install pandas scikit-learn
+        run: |
+          pip install mlflow pandas scikit-learn matplotlib
 
       - name: Run training
         run: |
